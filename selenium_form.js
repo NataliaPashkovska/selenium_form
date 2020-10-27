@@ -39,4 +39,3 @@ it('Logout from app', () => {
     cy.get('[class="flash success"]').contains('You logged out of the secure area!').should('exist');
 
 });
-
